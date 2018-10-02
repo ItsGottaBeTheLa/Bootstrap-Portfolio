@@ -22,7 +22,7 @@
 
         <!-- Navigation -->
         <div class="container">
-            <nav class="navbar navbar-dark bg-primary" style="background-color:blue" >
+            <nav class="navbar navbar-dark bg-primary">
                 <a class="navbar-brand" href="contact.html">Damiano Raab</a>
                 <div class="row">
                     <ul class="navbar-nav mr-auto">
@@ -41,19 +41,21 @@
         </div>
         
         <!-- Contact Section -->
-        <div class="container">
-            <form action="action_page.php">
-                <label for="fname">Full Name</label>
-                <input type="text" id="fname" name="fullname" placeholder="your name"><br>
-                <label for="email">email</label>
-                <input type="text" id="email" name="email" placeholder="your email address"><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" placeholder="Please type your message here"
-                    style="height:200px">
-                </textarea><br>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
+        <section id="contact">
+            <div class="container">
+                <form action="action_page.php">
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" name="fullname" placeholder="your name"><br>
+                    <label for="email">email</label>
+                    <input type="text" id="email" name="email" placeholder="your email address"><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" placeholder="Please type your message here"
+                        style="height:200px">
+                    </textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
         
         <!-- Footer -->
         <footer>
