@@ -227,3 +227,8 @@ h6{
   flex-direction: row;
 }
 /*media tags*/
+@media (max-width: 700px){
+  .footer, .masthead, .body{
+    flex-direction: column;
+  }
+}
