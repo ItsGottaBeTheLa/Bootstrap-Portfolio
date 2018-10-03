@@ -221,4 +221,9 @@ h6{
     padding: 20 40 20 20;
     position: fixed;
 }
+
+.social{
+  display: flex;
+  flex-direction: row;
+}
 /*media tags*/
