@@ -52,10 +52,10 @@ table {
 }
 
 body {
-    font-family: Arial,"helvetica Neue", Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 34px;
-    background-image: url("images/soccerfield.jpg");
+  font-family: Arial,"helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  background-image: url("images/soccerfield.jpg");
 }
 .container {
   width: 100%;
@@ -220,6 +220,8 @@ input[type=submit] {
 h6 {
   padding: 20 40 20 20;
   position: fixed;
+  background-color: gold;
+  
 }
 
 .fimage {
@@ -238,5 +240,22 @@ h6 {
 @media (max-width: 700px) {
   .footer, .masthead, .body {
     flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  h6 {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar{
+    text-align:center;
+    width: 100%;
   }
 }
